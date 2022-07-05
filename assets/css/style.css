@@ -15,9 +15,12 @@ nav {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+}
+
 ul {
     list-style: none;
-    text-decoration: none;
 }
 
 li {
@@ -25,7 +28,6 @@ li {
     padding-left: 1%;
     padding-right: 1%;
     list-style: none;
-    text-decoration: none;
 }
 
 .Navigation {
@@ -41,17 +43,20 @@ li {
 }
 
 
-main{
+main {
     background-color: #D9E8E5;
     width: 100vw;
     padding-top: 20%;
     padding-bottom: 20%;
     padding-right: 5%;
     padding-left: 5%;
-    
+
 }
+
 h2 {
-padding-left: 3.7%;
+    padding-left: 3.7%;
+    margin: 0 auto;
+    max-width: 1200px;
 }
 
 main div {
@@ -59,4 +64,6 @@ main div {
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px 20px;
+    max-width: 1200px;
+    margin: auto;
 }
